@@ -63,7 +63,8 @@ var base = [
     'src/module/RFID.js',
     'src/module/Soil.js',
     'src/module/G3.js',
-    'src/module/Stepper.js'
+    'src/module/Stepper.js',
+    'src/module/SerialPortForward.js'
   ];
 
 gulp.task('clean', shell.task([

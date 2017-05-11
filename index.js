@@ -45,6 +45,7 @@ require('./src/module/RFID')(webduino);
 require('./src/module/Soil')(webduino);
 require('./src/module/G3')(webduino);
 require('./src/module/Stepper')(webduino);
+require('./src/module/SerialPortForward.js')(webduino);
 
 module.exports = webduino;
 
